@@ -1,0 +1,40 @@
+{
+  "type": "module",
+  "name": "create-sitemap",
+  "version": "1.0.0",
+  "description": "Generates a sitemap for a site.",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgrachov/create-sitemap.git"
+  },
+  "keywords": [
+    "sitemap",
+    "generate",
+    "xml",
+    "create",
+    "crawl",
+    "site",
+    "url",
+    "http",
+    "https",
+    "ai",
+    "make",
+    "build",
+    "builder"
+  ],
+  "author": "Lev Grachov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lgrachov/create-sitemap/issues"
+  },
+  "homepage": "https://github.com/lgrachov/create-sitemap#readme",
+  "dependencies": {
+    "crawling": "^1.0.1",
+    "xml-js": "^1.6.11"
+  }
+}
